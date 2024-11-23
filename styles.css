@@ -1,0 +1,56 @@
+body {
+    color: whitesmoke;
+    background: black;
+    margin: 0px;
+    font-family: "Great Vibes", cursive;
+    margin-bottom: 100px;
+}
+header {
+    border-bottom: solid 2px rgb(136, 201, 255);
+    padding: 20px;
+    font-size: 32px ;
+    color: rgb(145, 97, 255);
+}
+ .chamada {
+    background: rgb(149, 156, 255);
+    padding-bottom: 80px ;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+ .chamada-texto {
+   margin-right: 5%;
+}
+h1 {
+    font-size: 56px;
+}
+p {
+    font-size: 24px;
+}
+img {
+    
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto ;
+    gap: 10px;
+}
+ .categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+opacity: 0.5;
+height: 200px;
+}
+
+.categoria-videos img:hover {
+ opacity: 2.0;
+border: 1px solid red
+}
+.categoria h2 {
+    color: rgb(202, 165, 250);
+}
